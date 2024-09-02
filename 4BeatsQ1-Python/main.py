@@ -16,7 +16,7 @@ filename = r"4BeatsQ1.xlsx"
 df = load_workbook(filename)
 sheet = df[current_day]
 
-# Needs to be same as number ok keywords present in Excel Sheet
+# num_keywords needs to be same as number ok keywords present in Excel Sheet
 num_keywords = 10
 
 for row in range(3, 3+num_keywords):
